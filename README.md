@@ -1,4 +1,3 @@
-## 📝 README.md for **Kanye Says…**
 
 ````markdown
 # Kanye Says…

@@ -17,7 +17,7 @@ Click the Kanye button and get instant wisdom™.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/kanye-says.git
+   git clone https://github.com/VasilisKokotakis/kanye-says.git
    cd kanye-says
 ````
 

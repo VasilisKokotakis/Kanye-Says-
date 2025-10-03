@@ -9,7 +9,21 @@ def get_quote():
     data = response.json()
     quote = data["quote"]
     canvas.itemconfig(quote_text, text=quote)
-
+    
+    # Start with a big font size and shrink if needed
+    font_size = 30
+    while True:
+        canvas.itemconfig(
+            quote_text,
+            text=quote,
+            font=("Arial", font_size, "bold")
+        )
+        bbox = canvas.bbox(quote_text)  # (x1, y1, x2, y2) of the text
+        if bbox and (bbox[2] - bbox[0] <= 250 and bbox[3] - bbox[1] <= 300):
+            break
+        font_size -= 2
+        if font_size < 10:  # avoid infinite loop
+            break
 
 window = Tk()
 window.title("Kanye Says...")

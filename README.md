@@ -1,20 +1,20 @@
 
-# 🎤 Kanye Says…
+# Kanye Says…
 
 A playful Python app that serves up **random Kanye West quotes** in a stylish Tkinter GUI.
 Powered by the [kanye.rest](https://kanye.rest/) API, because sometimes… you just need Kanye wisdom™.
 
 ---
 
-## ✨ Features
+## Features
 
-* 🎨 Clean Tkinter interface with a custom background
-* 🔄 One-click Kanye quotes from the **Kanye REST API**
-* 🖼️ Fun Kanye button to summon wisdom
+*  Clean Tkinter interface with a custom background
+*  One-click Kanye quotes from the **Kanye REST API**
+*  Fun Kanye button to summon wisdom
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1. Clone the repository:
 
@@ -37,7 +37,7 @@ Powered by the [kanye.rest](https://kanye.rest/) API, because sometimes… you j
 
 ---
 
-## 📂 Assets
+## Assets
 
 * `background.png` → canvas background
 * `kanye.png` → the legendary Kanye button
@@ -46,13 +46,13 @@ Powered by the [kanye.rest](https://kanye.rest/) API, because sometimes… you j
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 <img width="409" height="684" alt="image" src="https://github.com/user-attachments/assets/f25dacda-6da9-4bf0-94d7-6cfa281dc2a0" />
 
 
 ---
 
-## 📜 License
+## License
 
-Released under the **MIT License** – free to use, modify, and share.
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
